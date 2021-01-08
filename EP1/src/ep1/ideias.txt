@@ -1,0 +1,7 @@
+Vetor desordenado: no VD, as palavras eram adicionadas conforme apareciam no texto, e caso uma palavra
+aparecesse repetida, o seu valor era sobreposto pelo novo, mas sua posicao mantida.
+Lista ligada desordenada: para a LD, a ideia deev ser a mesma do VD
+
+
+atual ->se for maior que minha chave, ignora direita na contagem
+atual ->se for menor que minha chave, contabiliza todo os nos que partem de sua esquerda e refaz checagem com a direita
